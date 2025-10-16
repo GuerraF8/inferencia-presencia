@@ -1,0 +1,1 @@
+DOMAIN = "inferencia_presencia"
