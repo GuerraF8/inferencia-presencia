@@ -1,0 +1,12 @@
+# services.yaml
+
+actualizar_estado:
+  name: Actualizar Estado
+  description: Actualiza el estado del sensor de inferencia de presencia.
+  fields:
+    nuevo_estado:
+      name: Nuevo Estado
+      description: "Nuevo valor para el sensor (Presente o Ausente)."
+      required: true
+      selector:
+        text:

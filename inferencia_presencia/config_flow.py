@@ -1,4 +1,3 @@
-#Flujo de configuración para la integración Inferencia Presencia.
 from __future__ import annotations
 
 import voluptuous as vol
@@ -15,7 +14,7 @@ class InferenciaPresenciaConfigFlow(ConfigFlow, domain=DOMAIN):
     async def async_step_user(
         self, user_input: dict | None = None
     ) -> FlowResult:
-        # Maneja el paso inicial
+        
         if user_input is not None:
             return self.async_create_entry(title="Sistema de Inferencia", data=user_input)
 
