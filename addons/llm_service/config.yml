@@ -1,0 +1,14 @@
+name: "Inferencia LLM"
+version: "0.1.0"
+slug: "llm_service"
+description: "Complemento de modelo de inferencia, @GuerraF8"
+arch: ["aarch64", "amd64", "armv7"]
+boot: "auto"
+init: false
+panel_icon: "mdi:brain"
+
+
+ports:
+  8000/tcp: 8000
+
+map: ["config:rw"]
